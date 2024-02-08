@@ -7,7 +7,7 @@ import NameModal from "./component/modal";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const socket = io("http://localhost:5000");
+const socket = io("https://websocketbackend-p7c9.onrender.com/");
 
 function App() {
   const [name, setName] = useState("");
